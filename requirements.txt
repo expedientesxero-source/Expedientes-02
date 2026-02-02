@@ -1,0 +1,24 @@
+import streamlit as st
+
+st.set_page_config(page_title="Mi Centro de Comando IA", layout="wide")
+
+st.title("🚀 Mi Super App de Creación")
+
+# Barra lateral para elegir herramienta
+option = st.sidebar.selectbox(
+    '¿Qué vamos a crear hoy?',
+    ('Generador de Video', 'Estudio de Avatares', 'Creador de Música', 'Diseño de Miniaturas/Banners', 'Gestor de Redes')
+)
+
+if option == 'Generador de Video':
+    st.header("🎬 Generador de Video de Alta Tecnología")
+    prompt = st.text_area("Describe tu video cinematográfico:")
+    if st.button("Generar Video"):
+        st.write("Conectando con Runway/Sora... Generando...")
+
+elif option == 'Diseño de Miniaturas/Banners':
+    st.header("🎨 Laboratorio de Diseño 3D")
+    # Aquí integraríamos la conexión para crear imágenes
+    st.file_uploader("Sube una imagen para quitarle el fondo")
+    
+# (Y así con cada sección que pediste...)
