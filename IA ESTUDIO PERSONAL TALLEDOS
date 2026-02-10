@@ -1,0 +1,18 @@
+Library.tsxindex.htmlindex.tsxtypes.tsApp.tsxmetadata.jsongeminiService.tsDashboard.tsxVideoStudio.tsxImageStudio.tsxAudioStudio.tsxTrendAnalyzer.tsxChatBot.tsxLibrary.tsxChatBot.tsxTrendAnalyzer.tsxImageStudio.tsxAudioStudio.tsxDashboard.tsxVideoStudio.tsxmetadata.jsongeminiService.tsApp.tsxtypes.tsindex.htmlindex.tsx/ (Carpeta Raíz)
+├── index.html
+├── index.tsx
+├── App.tsx
+├── types.ts
+├── metadata.json
+│
+├── services/ (Carpeta)
+│   └── geminiService.ts
+│
+└── components/ (Carpeta)
+    ├── Dashboard.tsx
+    ├── VideoStudio.tsx
+    ├── ImageStudio.tsx
+    ├── AudioStudio.tsx
+    ├── TrendAnalyzer.tsx
+    ├── ChatBot.tsx
+    └── Library.tsx/ (Carpeta Raíz)
